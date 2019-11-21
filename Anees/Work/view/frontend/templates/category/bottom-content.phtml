@@ -1,0 +1,34 @@
+ <div class="container">
+
+
+
+ <?php
+
+$objectManagers = \Magento\Framework\App\ObjectManager::getInstance();
+$category = $objectManagers->get('Magento\Framework\Registry')->registry('current_category');//get current category
+$cid=$category->getId();
+
+
+
+
+
+
+         $objectManager = \Magento\Framework\App\ObjectManager::getInstance();
+$catId = $cid; // category id
+
+$collection = $objectManager->create('Magento\Catalog\Model\ResourceModel\Category\CollectionFactory')
+    ->create()
+    ->addAttributeToSelect('*')
+    ->addAttributeToFilter('entity_id',['eq'=>$catId])
+    ->setPageSize(1);
+
+$catObj = $collection->getFirstItem();
+$catData = $catObj->getData(); // dump this line to check all data
+
+echo $catObj->getcategory_custom_editor();
+
+
+
+         ?>
+
+ </div>
