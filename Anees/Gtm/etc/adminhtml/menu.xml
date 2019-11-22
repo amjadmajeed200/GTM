@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
     <menu>
-        <add id="Anees_Gtm::elements" title="Modules" module="Anees_Gtm" parent="Magento_Backend::content" sortOrder="10"  resource="Anees_Gtm::elements"/>
-        <add id="Anees_Gtm::blog_content" title="Developer Interface" module="Anees_Gtm" sortOrder="50"  action="work/interfaces" parent="Anees_Gtm::elements" resource="Anees_Gtm::blog_content" />
+        <add id="Anees_Gtm::elements" title="Google Tag Manager" module="Anees_Gtm" parent="Magento_Backend::content" sortOrder="10"  resource="Anees_Gtm::elements"/>
+        <add id="Anees_Gtm::blog_content" title="Add Tag Manager" module="Anees_Gtm" sortOrder="50"  action="work/interfaces" parent="Anees_Gtm::elements" resource="Anees_Gtm::blog_content" />
 <!--
         <add id="Anees_Work::post" title="Posts1" module="Anees_Work" sortOrder="0" parent="Anees_Work::elements" action="blog/post113" resource="Anees_Work::post"/>
 -->
