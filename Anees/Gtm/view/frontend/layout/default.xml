@@ -12,11 +12,11 @@
     <body>
         <!-- Anees/Gtm/layout/default.xml -->
         <referenceContainer name="head.additional">
-            <block class="Magento\Framework\View\Element\Template" name="gtm.head" before="-" template="Anees_Gtm::gtm_head.phtml" />
+            <block class="Magento\Framework\View\Element\Template" name="aneesgtm.head" before="-" template="Anees_Gtm::gtm_head.phtml" />
         </referenceContainer>
 
         <referenceContainer name="after.body.start">
-            <block class="Magento\Framework\View\Element\Template" name="gtm.body" before="-" template="Anees_Gtm::gtm_body.phtml" />
+            <block class="Magento\Framework\View\Element\Template" name="aneesgtm.body" before="-" template="Anees_Gtm::gtm_body.phtml" />
         </referenceContainer>
 
 
