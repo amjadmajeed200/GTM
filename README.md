@@ -8,5 +8,5 @@ Documentation & Installation Guide
 
 Download the package and paste under app/code folder
 
-Composer Installation
-composer require magepal/magento2-googletagmanager
+<h3>Composer Installation</h3>
+<div class="class="highlight highlight-source-shell">composer require magepal/magento2-aneesgtm</div>
