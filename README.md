@@ -9,4 +9,4 @@ Documentation & Installation Guide
 Download the package and paste under app/code folder
 
 <h3>Composer Installation</h3>
-<div class="class="highlight highlight-source-shell">composer require magepal/magento2-aneesgtm</div>
+<div class="class="highlight highlight-source-shell">composer require anees/magento2-aneesgtm</div>
