@@ -10,7 +10,7 @@ Download the package and paste under app/code folder
 
 <h3>Composer Installation</h3>
                                                     
-                 composer require anees/magento2-aneesgtm                                
+   composer require anees/magento2-aneesgtm                                
 <h3>Support</h3>
 If you encounter any problems or bugs, please open an issue on GitHub. For fast Premium Support visit our Google Tag Manager product page for detail.
 
