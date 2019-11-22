@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <!--
 /**
- * Copyright © Magefan (support@magefan.com). All rights reserved.
- * Please visit Magefan.com for license details (https://magefan.com/end-user-license-agreement).
+ * Copyright © Magefan (support@aneesahmadweb.com). All rights reserved.
+ * Please visit aneesahmadweb.com for license details (https://aneesahmadweb.com/end-user-license-agreement).
  *
  * Glory to Ukraine! Glory to the heroes!
  */
@@ -10,7 +10,7 @@
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
 
     <body>
-        <!-- YourTheme/Magento_Theme/layout/default.xml -->
+        <!-- Anees/Gtm/layout/default.xml -->
         <referenceContainer name="head.additional">
             <block class="Magento\Framework\View\Element\Template" name="gtm.head" before="-" template="Anees_Gtm::gtm_head.phtml" />
         </referenceContainer>
