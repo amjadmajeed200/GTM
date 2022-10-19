@@ -14,4 +14,4 @@ Download the package and paste under app/code folder
 <h3>Support</h3>
 If you encounter any problems or bugs, please open an issue on GitHub. 
 
-Need help setting up or want to customize this extension to meet your business needs? Please email aneesahmadweb@gmail.com and if we like your idea we will add this feature for free or at a discounted rate.
+Need help setting up or want to customize this extension to meet your business needs? Please email us and if we like your idea we will add this feature for free or at a discounted rate.
