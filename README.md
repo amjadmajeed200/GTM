@@ -1,4 +1,4 @@
-# Anees_Gtm
+# Google Tag
 
 <h1>How to add Google Tag Manager code in Magento 2</h1>
 
